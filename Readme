@@ -1,0 +1,6 @@
+Attached is visualization of word embeddings for words found in titles of Amazon products under "Clothing, Shoes and Jewelry".
+Requisite data is found under meta data of "Clothing, Shoes and Jewelry": http://deepyeti.ucsd.edu/jianmo/amazon/index.html
+
+Attached also is visualization of some clothings from the Fashion MNIST dataset.
+Data can be downloaded directly in jupyter notebook.
+Dataset will be replaced with Deepfashion Dataset once administrator approval is given (Need to request access)
