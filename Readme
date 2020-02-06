@@ -23,4 +23,5 @@ This is a very rich and comprehensive and prelabeled dataset we can use in fashi
 
 We attached a further image from the website, "deepFashionVisualizationWebsite.jpg", to demonstrate some of these labels on the images.
 
-//Overall, the data is generated from TDI_dataProcessing
+//Overall, the data is generated from TDI_dataProcessing. Some of the data is located on my local machine, due to repository storage
+restrictions. Fashion MNIST, however, is runnable as it imports dataset from library.
