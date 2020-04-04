@@ -6,7 +6,8 @@ Requisite data is found under meta data of "Clothing, Shoes and Jewelry": http:/
 The word embeddings here are imperfect, but they do show that it is possible to learn some representation of the products based on
 available information to cluster them. For example, leather is closely related to waterproof.
 However, most words are still quite clustered, and indicate much area for improvement which also offers an opportunity. 
-A future direction could be embeddings for phrases that encode the similarity of the whole phrase, trained on a fashion corpus.
+A future direction could be similarities trained of specifically fashion datasets, as well as extending similarity to phrases and 
+product descriptions, and lastly tuning state of the art models in textual similarity for this task.
 
 //2nd Asset
 Attached also is visualization of some clothings from the Fashion MNIST dataset, titled "fashionMNISTVisualization.png".
