@@ -4,7 +4,7 @@ Fashion inspiration today is found on social media sites like Instagram and Pint
 
 This project focuses on building a text and image extractor that can work on social media posts.
 
-## 1st Asset: Fashion images: Deepfashion, Instagram, Pinterest
+## 1st Asset: Fashion images: Deepfashion, Instagram
 ### DeepFashion
 To train an image to label and fashion images properly, we will use the DeepFashion data, which has over DeepFashion contains over 800,000 diverse fashion images ranging from well-posed shop images to unconstrained consumer photos. As we eventually plan to label fashion images on social media, the mix of posed shop images and unconstrained consumer photos is a good dataset to train on. Furthermore, we eventually want to test our feature extractor on social media posts, we will scrape some of these posts. Deepfashion dataset is extremely comprehensive, having a category and attribute prediction benchmark, landmark detection benchmark, etc.
 ![GitHub Logo](/images/attributes.jpg)
@@ -35,3 +35,4 @@ By running instagram scrapper on hashtag ootd (outfit of the day), we get:
 ![GitHub Logo](/images/89830452_138197107721093_3195444993594625119_n.jpg)
 ![GitHub Logo](/images/19933281_250367215466764_3000932124032237568_a.jpg)
 
+## 2nd Asset: Word embeddings
