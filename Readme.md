@@ -12,7 +12,15 @@ To train an image to label and fashion images properly, we will use the DeepFash
 
 In addition, I also got an instagram scraper to run. This is the installation code:
 ```python
-require 'redcarpet'
-markdown = Redcarpet.new("Hello World!")
-puts markdown.to_html
+$ pip install instagram-scraper
+```
+To scrape, run:
+```python
+instagram-scraper <username> -u <your username> -p <your password>
+```
+Providing username and password is optional, if not supplied the scraper runs as a guest.
+
+To scrape a hashtag for media:
+```python
+$ instagram-scraper <hashtag without #> --tag
 ```
