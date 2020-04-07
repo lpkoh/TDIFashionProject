@@ -16,7 +16,7 @@ $ pip install instagram-scraper
 ```
 To scrape, run:
 ```python
-instagram-scraper <username> -u <your username> -p <your password>
+$ instagram-scraper <username> -u <your username> -p <your password>             
 ```
 Providing username and password is optional, if not supplied the scraper runs as a guest.
 
