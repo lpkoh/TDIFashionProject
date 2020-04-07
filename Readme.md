@@ -28,4 +28,10 @@ $ instagram-scraper <hashtag without #> --tag
 ```
 
 By running instagram scrapper on top fashion influencer Zoella, we get:
+![GitHub Logo](/images/91263927_120041452958279_8151565705070408575_n.jpg)
+![GitHub Logo](/images/91693460_2724881547623151_4953905862608554348_n.jpg)
+
+By running instagram scrapper on hashtag ootd (outfit of the day), we get:
+![GitHub Logo](/images/89830452_138197107721093_3195444993594625119_n.jpg)
+![GitHub Logo](/images/19933281_250367215466764_3000932124032237568_a.jpg)
 
