@@ -9,7 +9,5 @@ This project focuses on building a text and image extractor that can work on soc
 To train an image to label and fashion images properly, we will use the DeepFashion data, which has over DeepFashion contains over 800,000 diverse fashion images ranging from well-posed shop images to unconstrained consumer photos. As we eventually plan to label fashion images on social media, the mix of posed shop images and unconstrained consumer photos is a good dataset to train on. Furthermore, we eventually want to test our feature extractor on social media posts, we will scrape some of these posts.
 
 
-```python
-s = "Python syntax highlighting"
-print s
-```
+![GitHub Logo](/images/attributes.jpg)
+Format: ![Alt Text](url)
