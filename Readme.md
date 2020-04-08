@@ -36,3 +36,7 @@ By running instagram scrapper on hashtag ootd (outfit of the day), we get:
 ![GitHub Logo](/images/19933281_250367215466764_3000932124032237568_a.jpg)
 
 ## 2nd Asset: Word embeddings
+Attached is visualization of word embeddings for words found in titles of Amazon products under "Clothing, Shoes and Jewelry".
+It is titled "wordEmbeddingsGenerated.png"
+Requisite data is found under meta data of "Clothing, Shoes and Jewelry": http://deepyeti.ucsd.edu/jianmo/amazon/index.html
+![GitHub Logo](/images/wordEmbeddingsGenerated.png)
