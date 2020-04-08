@@ -38,8 +38,10 @@ By running instagram scrapper on hashtag ootd (outfit of the day), we get:
 ## 2nd Asset: Word embeddings
 We also need a way to extract features from textual data. An example of how this can be done is using a pretrained word vector model, that we could possibly tune, to extract word vectors. We could also fine tune other state of the art embedding models such as BERT, with fine tuning on fashion dataset.
 
-We demonstrate this is feasible using a simple word2Vec model, which we use on Amazon fashion product titles. Attached is visualization of word embeddings for words found in titles of Amazon products under "Clothing, Shoes and Jewelry".
+We demonstrate this is feasible using a simple word2Vec model, which we use on Amazon fashion product titles. Attached is visualization of word embeddings for words found in titles of Amazon products under "Clothing, Shoes and Jewelry", after PCA to 2 dimensions.
 It is titled "wordEmbeddingsGenerated.png"
 Requisite data is found under meta data of "Clothing, Shoes and Jewelry": http://deepyeti.ucsd.edu/jianmo/amazon/index.html
 
 ![GitHub Logo](/images/wordEmbeddingsGenerated.png)
+
+The word embeddings here are imperfect, but they do show some understanding of the context of meaning of the words. For example, leather is closely related to waterproof. However, most words are still quite clustered, and indicate much area for improvement which also offers an opportunity.  A future direction for word similarity models could be similarities trained on specifically fashion datasets, as well as extending similarity to phrases and product descriptions, and lastly tuning state of the art models in textual similarity for this task.
